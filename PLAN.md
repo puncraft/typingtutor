@@ -156,7 +156,10 @@ typingtutor/
   css/
     style.css
   js/
+    art.js          all SVG artwork (robot, alien, cadet, rocket, buildings)
     storage.js      profiles, save/load, export/import
+    profiles.js     "who is typing" screen and new cadet form
+    results.js      end-of-lesson stars and unlocks screen
     audio.js        sound effects and voice
     keyboard.js     on-screen keyboard, finger colours, hand diagram
     lessons-data.js lesson definitions (keys, drills, words)
