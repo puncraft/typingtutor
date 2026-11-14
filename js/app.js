@@ -14,6 +14,7 @@
           <div class="splash-rocket">${TT.Art.rocket({ fins: true, cockpit: true, nose: true, flame: true })}</div>
           <h1 class="title">Space Cadet Typing</h1>
           <p class="splash-sub">Learn to type. Build a rocket. Blast off!</p>
+          <p class="splash-by">A game by Mr. Gary</p>
           <button class="btn btn-big" data-act="start">Start</button>
           <div class="hint">or press any key</div>
           ${touchOnly ? '<div class="notice">This game needs a real keyboard. Try it on a laptop or a computer.</div>' : ''}

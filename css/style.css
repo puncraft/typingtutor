@@ -608,6 +608,18 @@ h1, h2, h3 { font-family: var(--font-fun); font-weight: 700; }
 .art-robot .robot-eye { transform-box: fill-box; transform-origin: center; animation: blink 4s infinite; }
 .art-robot .robot-light { animation: glow 1.4s ease-in-out infinite; }
 
+/* Credit */
+.credit {
+  text-align: center;
+  color: var(--muted);
+  font-family: var(--font-fun);
+  font-size: 14px;
+  padding: 8px 16px 18px;
+  opacity: .8;
+}
+.credit .heart { color: var(--bad); }
+.splash-by { font-family: var(--font-fun); font-size: 20px; color: var(--star); margin: -8px 0 4px; }
+
 /* Toast */
 .toast {
   position: fixed;

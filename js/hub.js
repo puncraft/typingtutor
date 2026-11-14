@@ -157,7 +157,7 @@
     const next = TT.Progress.nextLesson(p);
     let text;
     if (next && next.id === 1) {
-      text = `Welcome to your launch pad, ${p.name}! Your rocket is not finished yet. Every lesson adds something new. Press the space bar to start lesson 1!`;
+      text = `Welcome to your launch pad, ${p.name}! Mr. Gary built it just for you. Your rocket is not finished yet. Every lesson adds something new. Press the space bar to start lesson 1!`;
     } else if (next) {
       const keys = next.newKeys.length ? `Let's learn ${next.newKeys.map((k) => (k === ';' ? 'semicolon' : k.toUpperCase())).join(' and ')}.` : "Let's review everything.";
       text = `Welcome back, ${p.name}! Ready for lesson ${next.id}? ${keys}`;
